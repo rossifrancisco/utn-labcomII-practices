@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>perfil</title>
+</head>
+<body>
+    <h1>perfil</h1>
+
+    <fieldset>
+        <legend>Datos Personales</legend>
+        <form action="accion.php" method="post" target="_blank">
+
+            <label for="estado">estado:</label>
+            <input type="text" name="estado" id="estado" value="estudiante" readonly>
+            <br>
+
+            <label for="nombreCompleto">nombre completo:</label>
+            <input type="text" name="nombreCompleto" id="nombreCompleto" placeholder="texto de ejemplo">
+            <br>
+
+            <label for="email">email:</label>
+            <input type="email" name="email" id="email" placeholder="ejemplo@email.com">
+            <br>
+
+            <label for="edad">edad:</label>
+            <input type="number" name="edad" id="edad" placeholder="0">
+            <br>
+
+            <label for="seleccionable">nacionalidad:</label>
+            <select name="seleccionable" id="seleccionable">
+                <option value="Argentina">Argentina</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="Paraguay">Paraguay</option>
+                <option value="Chile">Chile</option>
+                <option value="Otro">Otro</option>
+            </select>
+            <br>
+
+            <label for="seleccionable2">condicion laboral:</label>
+            <select name="seleccionable2" id="seleccionable2">
+                <option value="desempleado">desempleado</option>
+                <option value="en búsqueda laboral">en búsqueda laboral</option>
+                <option value="trabajo part time">trabajo part time</option>
+                <option value="trabajo full time.">trabajo full time</option>
+            </select>
+            <br>
+
+            <label for="check">recordar datos</label>
+            <input type="checkbox" name="check" id="check">
+            <br>
+
+            <input type="submit" value="enviar datos">
+        </form>
+    </fieldset>
+    <br>
+    
+    <fieldset>
+        <legend>Gustos Personales</legend>
+        <form action="accion.php" method="post" target="_blank">
+
+            <label for="musica">genero musical favorito</label>
+            <input type="text" name="musica" id="musica" placeholder="texto de ejemplo">
+            <br>
+
+            <label for="comidaFavorita">comida favorita:</label>
+            <select name="comidaFavorita" id="comidaFavorita">
+                <option value="Pizza">Pizza</option>
+                <option value="Milanesa">Milanesa</option>
+                <option value="Fideos">Fideos</option>
+                <option value="Empanadas">Empanadas</option>
+                <option value="Otro">Otro</option>
+            </select>
+            <br>
+
+            <label for="check2">recordar datos</label>
+            <input type="checkbox" name="check2" id="check2">
+            <br>
+
+            <input type="submit" value="enviar datos">
+        </form>
+    </fieldset>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+</head>
+<body>
+    <h1>Inicio de sesion</h1>
+    <p>ingrese sus datos para iniciar sesion</p>
+    <form action="accion.php" method="post" target="_blank">
+
+        <label for="nombre">nombre:</label>
+        <input type="text" name="nombre" id="nombre" placeholder="texto de ejemplo" required>
+        <br>
+
+        <label for="contraseña">contraseña:</label>
+        <input type="password" name="contraseña" id="contraseña" required>
+        <br>
+
+        <label for="checkbox">recordar datos</label>
+        <input type="checkbox" name="check" id="check">
+        <br>
+
+        <input type="submit" value="iniciar sesion">
+    </form>
+</body>
+</html>
